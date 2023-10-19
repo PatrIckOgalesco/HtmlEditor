@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/codemirror.min.css">
+</head>
+<body>
+    <div class="code-editor">
+        <div class="code">
+            <div class="html-code">
+                <h1><img src="images/html.png" alt="">HTML</h1>
+                <textarea id="html-code" class="code"></textarea>
+            </div>
+            <div class="css-code">
+                <h1><img src="images/css.png" alt="">CSS</h1>
+                <textarea id="css-code" class="code"></textarea>
+            </div>
+            <div class="js-code">
+                <h1><img src="images/js.png" alt="">JS</h1>
+                <textarea spellcheck="false" id="js-code" class="code"></textarea>
+            </div>
+        </div>
+        <iframe id="result"></iframe>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/javascript/javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/xml/xml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/css/css.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
